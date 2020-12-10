@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  MultiClickButton
-//
-//  Created by 夏天 on 2020/12/10.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
