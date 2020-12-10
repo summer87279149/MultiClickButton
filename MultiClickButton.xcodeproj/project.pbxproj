@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CB721842581FCE4001048EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB721832581FCE4001048EE /* AppDelegate.swift */; };
+		5CB721862581FCE4001048EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB721852581FCE4001048EE /* SceneDelegate.swift */; };
+		5CB721882581FCE4001048EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB721872581FCE4001048EE /* ViewController.swift */; };
+		5CB7218B2581FCE4001048EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB721892581FCE4001048EE /* Main.storyboard */; };
+		5CB7218D2581FCE7001048EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB7218C2581FCE7001048EE /* Assets.xcassets */; };
+		5CB721902581FCE7001048EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB7218E2581FCE7001048EE /* LaunchScreen.storyboard */; };
+		5CB7219F2581FD55001048EE /* MutiClickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7219E2581FD55001048EE /* MutiClickButton.swift */; };
+		7E48ECB5F0FEFE9A96A26E9D /* Pods_MultiClickButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577F3FF4CE7BB4E052AA2362 /* Pods_MultiClickButton.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05D987DAC3BF2A5AC427F8C7 /* Pods-MultiClickButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClickButton.debug.xcconfig"; path = "Target Support Files/Pods-MultiClickButton/Pods-MultiClickButton.debug.xcconfig"; sourceTree = "<group>"; };
+		577F3FF4CE7BB4E052AA2362 /* Pods_MultiClickButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiClickButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB721802581FCE4001048EE /* MultiClickButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiClickButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB721832581FCE4001048EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CB721852581FCE4001048EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5CB721872581FCE4001048EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CB7218A2581FCE4001048EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CB7218C2581FCE7001048EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CB7218F2581FCE7001048EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CB721912581FCE7001048EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB7219E2581FD55001048EE /* MutiClickButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutiClickButton.swift; sourceTree = "<group>"; };
+		917F99FCE1F72FDAA0E871E7 /* Pods-MultiClickButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClickButton.release.xcconfig"; path = "Target Support Files/Pods-MultiClickButton/Pods-MultiClickButton.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CB7217D2581FCE4001048EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E48ECB5F0FEFE9A96A26E9D /* Pods_MultiClickButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27574863E234546C2917C84C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05D987DAC3BF2A5AC427F8C7 /* Pods-MultiClickButton.debug.xcconfig */,
+				917F99FCE1F72FDAA0E871E7 /* Pods-MultiClickButton.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5CB721772581FCE3001048EE = {
+			isa = PBXGroup;
+			children = (
+				5CB721822581FCE4001048EE /* MultiClickButton */,
+				5CB721812581FCE4001048EE /* Products */,
+				27574863E234546C2917C84C /* Pods */,
+				8A7E8330F6FB9CFD317B7489 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CB721812581FCE4001048EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB721802581FCE4001048EE /* MultiClickButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CB721822581FCE4001048EE /* MultiClickButton */ = {
+			isa = PBXGroup;
+			children = (
+				5CB721832581FCE4001048EE /* AppDelegate.swift */,
+				5CB721852581FCE4001048EE /* SceneDelegate.swift */,
+				5CB721872581FCE4001048EE /* ViewController.swift */,
+				5CB7219E2581FD55001048EE /* MutiClickButton.swift */,
+				5CB721892581FCE4001048EE /* Main.storyboard */,
+				5CB7218C2581FCE7001048EE /* Assets.xcassets */,
+				5CB7218E2581FCE7001048EE /* LaunchScreen.storyboard */,
+				5CB721912581FCE7001048EE /* Info.plist */,
+			);
+			path = MultiClickButton;
+			sourceTree = "<group>";
+		};
+		8A7E8330F6FB9CFD317B7489 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				577F3FF4CE7BB4E052AA2362 /* Pods_MultiClickButton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CB7217F2581FCE4001048EE /* MultiClickButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB721942581FCE7001048EE /* Build configuration list for PBXNativeTarget "MultiClickButton" */;
+			buildPhases = (
+				45E0E7F749C0B769174E37B7 /* [CP] Check Pods Manifest.lock */,
+				5CB7217C2581FCE4001048EE /* Sources */,
+				5CB7217D2581FCE4001048EE /* Frameworks */,
+				5CB7217E2581FCE4001048EE /* Resources */,
+				0A18E62BDDCB17DA7952C244 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiClickButton;
+			productName = MultiClickButton;
+			productReference = 5CB721802581FCE4001048EE /* MultiClickButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CB721782581FCE3001048EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					5CB7217F2581FCE4001048EE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 5CB7217B2581FCE3001048EE /* Build configuration list for PBXProject "MultiClickButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CB721772581FCE3001048EE;
+			productRefGroup = 5CB721812581FCE4001048EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CB7217F2581FCE4001048EE /* MultiClickButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CB7217E2581FCE4001048EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB721902581FCE7001048EE /* LaunchScreen.storyboard in Resources */,
+				5CB7218D2581FCE7001048EE /* Assets.xcassets in Resources */,
+				5CB7218B2581FCE4001048EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A18E62BDDCB17DA7952C244 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiClickButton/Pods-MultiClickButton-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiClickButton/Pods-MultiClickButton-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiClickButton/Pods-MultiClickButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45E0E7F749C0B769174E37B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiClickButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CB7217C2581FCE4001048EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB721882581FCE4001048EE /* ViewController.swift in Sources */,
+				5CB7219F2581FD55001048EE /* MutiClickButton.swift in Sources */,
+				5CB721842581FCE4001048EE /* AppDelegate.swift in Sources */,
+				5CB721862581FCE4001048EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CB721892581FCE4001048EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB7218A2581FCE4001048EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CB7218E2581FCE7001048EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB7218F2581FCE7001048EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CB721922581FCE7001048EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CB721932581FCE7001048EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CB721952581FCE7001048EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D987DAC3BF2A5AC427F8C7 /* Pods-MultiClickButton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 538CJMNT5X;
+				INFOPLIST_FILE = MultiClickButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.summer.MultiClickButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CB721962581FCE7001048EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 917F99FCE1F72FDAA0E871E7 /* Pods-MultiClickButton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 538CJMNT5X;
+				INFOPLIST_FILE = MultiClickButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.summer.MultiClickButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CB7217B2581FCE3001048EE /* Build configuration list for PBXProject "MultiClickButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB721922581FCE7001048EE /* Debug */,
+				5CB721932581FCE7001048EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB721942581FCE7001048EE /* Build configuration list for PBXNativeTarget "MultiClickButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB721952581FCE7001048EE /* Debug */,
+				5CB721962581FCE7001048EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CB721782581FCE3001048EE /* Project object */;
+}
